@@ -32,4 +32,15 @@
             </plugin>
         </plugins>
     </build>
+    
+  <profiles>
+	  <profile>
+			<id> soloWindows </id>
+			<activation>
+				<os>
+					<family>windows</family>
+				</os>
+			</activation>
+		</profile>
+	</profiles>
 </project>
