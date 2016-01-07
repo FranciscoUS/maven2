@@ -23,6 +23,14 @@
     </dependency>
   </dependencies>
 
+ <profiles>
+	  <profile>
+	  	<id> Mi id</id>
+	  	<activation>
+				<os>
+					<family>windows</family>
+				</os>
+			</activation>
     <build>
         <plugins>
             <plugin>
@@ -41,14 +49,7 @@
         </plugins>
     </build>
     
-  <profiles>
-	  <profile>
-			<id> soloWindows </id>
-			<activation>
-				<os>
-					<family>windows</family>
-				</os>
-			</activation>
-		</profile>
+    </profile>
 	</profiles>
+ 
 </project>
